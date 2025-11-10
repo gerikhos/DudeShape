@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
-  padding:  0 10px;
+  padding: 0 10px;
 }
 .header__wrapper {
   display: flex;
@@ -25,7 +25,7 @@
   justify-content: space-between;
   width: 304px;
 }
-.header_new_nav{
+.header_new_nav {
   display: none;
 }
 .list__item a {
@@ -167,11 +167,11 @@
 .about_us_text_li {
   margin-left: 28px;
 }
-.about_us_img{
-height: 100%;
-    width: 100%;
-    max-width: 632px;
-    flex: 1 1 632px;
+.about_us_img {
+  height: 100%;
+  width: 100%;
+  max-width: 632px;
+  flex: 1 1 632px;
 }
 /*Our popular funiture*/
 .about_furniture {
@@ -209,7 +209,7 @@ height: 100%;
 .furniture_card {
   flex: 1 1 380px;
 }
-.about_furniture_img{
+.about_furniture_img {
   width: 100%;
 }
 .top_stroke_card {
@@ -319,14 +319,14 @@ height: 100%;
 .all_furniture_li_style {
   color: #154444;
 }
-.all_furniture_img{
+.all_furniture_img {
   width: 100%;
   height: 100%;
   flex: 1 0 452px;
 }
 .all_furniture_button {
   display: flex;
- 
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -334,7 +334,7 @@ height: 100%;
   padding: 16px;
   width: 100%;
   gap: 16px;
-  flex: 1 1 222px;
+  flex: 0 1 222px;
 }
 
 .all_furniture_button_text {
@@ -348,13 +348,15 @@ height: 100%;
 }
 .all_furniture_part {
   display: flex;
-  gap: 135px;
+
   align-items: center;
+  justify-content: space-between;
 }
 .all_furniture_buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 33px 30px;
+  flex: 0 0 494px;
 }
 .all_furniture_button:hover {
   background-color: #154444;
@@ -369,7 +371,7 @@ height: 100%;
 .feedback {
   margin-top: 140px;
 }
-.feedback_wrapper_img{
+.feedback_wrapper_img {
   width: 100%;
   height: 100%;
   max-width: 565px;
@@ -664,7 +666,6 @@ height: 100%;
   margin: 11px 12px 9px 0px;
   padding: 6px 6px;
   width: 28px;
-
 }
 .email_textbox_text {
   color: rgba(133, 147, 149, 1);
@@ -691,55 +692,53 @@ height: 100%;
   align-self: center;
   justify-self: center;
 }
-.email__footer_img{
+.email__footer_img {
   width: 16px;
   height: 16px;
 }
 .copyright {
   border-top: 1px solid rgba(64, 121, 128, 1);
 }
-@media (max-width: 992px){
-
-  .about_company_img{
+@media (max-width: 992px) {
+  .about_company_img {
     display: none;
   }
-  .header__nav{
+  .header__nav {
     display: none;
   }
-  .header_new_nav{
-  display:block;
+  .header_new_nav {
+    display: block;
   }
-  .about_text{
+  .about_text {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 50px 20px;
   }
-  .about_company_title
-  {
-text-align: center;
-  }
-  .about_company__wrapper{
-    display: block;
-  }
-  .about_company_text{
+  .about_company_title {
     text-align: center;
   }
-  .partners{
+  .about_company__wrapper {
+    display: block;
+  }
+  .about_company_text {
+    text-align: center;
+  }
+  .partners {
     margin-top: 70px;
   }
-  .image_block{
+  .image_block {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .about_company_title{
+  .about_company_title {
     font-size: 34px;
   }
-  .about_company_text{
+  .about_company_text {
     font-size: 18px;
   }
-  .about_us_wrapper_text{
+  .about_us_wrapper_text {
     margin-top: 20px;
     padding: 0;
     flex: initial;
@@ -747,79 +746,90 @@ text-align: center;
     flex-direction: column;
     align-items: center;
   }
-  .about_us_wrapper{
+  .about_us_wrapper {
     flex-direction: column;
-    gap:40px;
+    gap: 40px;
   }
-  .about_us{
+  .about_us {
     margin-top: 70px;
   }
-  .container{
+  .container {
     max-width: 788px;
   }
-  .about_furniture{
+  .about_furniture {
     margin-top: 70px;
   }
-  .all_furniture{
-margin-top: 70px;
+  .all_furniture {
+    margin-top: 70px;
   }
-  .all_furniture_part{
+  .all_furniture_part {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-  .all_furniture_list{
-justify-content: space-evenly;
-gap: 30px 0;
-flex-wrap: wrap;
+  .all_furniture_list {
+    justify-content: space-evenly;
+    gap: 30px 0;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
   }
-  .feedback{
+  .all_furniture_button {
+    flex: 1 1 222px;
+  }
+  .feedback {
     margin-top: 70px;
   }
-  .feedback_wrapper_title{
+  .feedback_wrapper_title {
     padding: 0;
   }
-  .feedback_wrapper{
+  .feedback_wrapper {
     gap: 20px;
     flex-direction: column;
   }
-  .register_wrapper_title{
+  .register_wrapper_title {
     font-size: 24px;
   }
-  .register_textbox{
+  .feedback_wrapper_img {
+    align-self: center;
+  }
+  .feedback_wrapper_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .register_textbox {
     align-items: center;
     flex-direction: column;
     background: none;
     gap: 15px;
   }
-  .email_img{
+  .email_img {
     display: none;
   }
-  .register_textbox_text{
+  .register_textbox_text {
     text-align: center;
     padding: 15px;
   }
-  .footer_wrapper{
+  .footer_wrapper {
     gap: 40px;
-    padding-top:40px ;
+    padding-top: 40px;
   }
-  .register{
+  .register {
     margin-top: 40px;
   }
-  .footer{
+  .footer {
     margin-top: 70px;
   }
-.footer_wrapper_first_group_title{
+  .footer_wrapper_first_group_title {
     padding: 0;
   }
-  .footer_wrapper_second_group{
+  .footer_wrapper_second_group {
     padding: 0;
   }
-  .footer_wrapper_third_group{
+  .footer_wrapper_third_group {
     padding: 0;
   }
-  .footer_wrapper_fourth_group{
+  .footer_wrapper_fourth_group {
     padding: 0;
   }
-  
 }
