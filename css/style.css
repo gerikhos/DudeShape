@@ -521,7 +521,8 @@ height: 100%;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: left;
-  margin: 100px 0 24px;
+  margin: 0 0 24px;
+  padding-top: 100px;
 }
 .footer_wrapper_first_group_title2 {
   color: rgba(255, 255, 255, 1);
@@ -718,6 +719,9 @@ height: 100%;
   {
 text-align: center;
   }
+  .about_company__wrapper{
+    display: block;
+  }
   .about_company_text{
     text-align: center;
   }
@@ -745,9 +749,19 @@ text-align: center;
   }
   .about_us_wrapper{
     flex-direction: column;
+    gap:40px;
+  }
+  .about_us{
+    margin-top: 70px;
   }
   .container{
     max-width: 788px;
+  }
+  .about_furniture{
+    margin-top: 70px;
+  }
+  .all_furniture{
+margin-top: 70px;
   }
   .all_furniture_part{
     flex-direction: column;
@@ -758,6 +772,9 @@ text-align: center;
 justify-content: space-evenly;
 gap: 30px 0;
 flex-wrap: wrap;
+  }
+  .feedback{
+    margin-top: 70px;
   }
   .feedback_wrapper_title{
     padding: 0;
@@ -784,9 +801,16 @@ flex-wrap: wrap;
   }
   .footer_wrapper{
     gap: 40px;
+    padding-top:40px ;
   }
   .register{
     margin-top: 40px;
+  }
+  .footer{
+    margin-top: 70px;
+  }
+.footer_wrapper_first_group_title{
+    padding: 0;
   }
   .footer_wrapper_second_group{
     padding: 0;
@@ -797,4 +821,5 @@ flex-wrap: wrap;
   .footer_wrapper_fourth_group{
     padding: 0;
   }
+  
 }
