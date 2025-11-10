@@ -351,6 +351,7 @@
 
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
 }
 .all_furniture_buttons {
   display: flex;
@@ -409,6 +410,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: center;
 }
 .customer_name {
   color: rgba(0, 0, 0, 1);
@@ -419,6 +421,11 @@
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
+}
+.about_customer{
+  flex-direction: column;
+    display: flex;
+    gap: 6px;
 }
 .star {
   display: flex;
@@ -753,6 +760,9 @@
   .about_us {
     margin-top: 70px;
   }
+    .about_us_text{
+      text-align: center;
+    }
   .container {
     max-width: 788px;
   }
@@ -767,6 +777,13 @@
     align-items: center;
     gap: 20px;
   }
+  .about_furniture_title{
+    text-align: center;
+  }
+  .about_furniture_p{
+    margin-bottom: 40px;
+    text-align: center;
+  }
   .all_furniture_list {
     justify-content: space-evenly;
     gap: 30px 0;
@@ -775,6 +792,9 @@
   }
   .all_furniture_button {
     flex: 1 1 222px;
+  }
+  .all_furniture_buttons{
+    flex: initial;
   }
   .feedback {
     margin-top: 70px;
@@ -788,6 +808,7 @@
   }
   .register_wrapper_title {
     font-size: 24px;
+
   }
   .feedback_wrapper_img {
     align-self: center;
@@ -796,6 +817,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .feedback_wrapper_p{
+    text-align: center;
+  }
+  .feedback_wrapper_title{
+    text-align: center;
   }
   .register_textbox {
     align-items: center;
